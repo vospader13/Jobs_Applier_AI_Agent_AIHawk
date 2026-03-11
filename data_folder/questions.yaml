@@ -1,0 +1,187 @@
+# Answer bank for common screening questions.
+# The bot checks this file before calling the LLM. Exact or fuzzy matches are used.
+# Add entries as new questions are encountered in the wild.
+# Format: question pattern (lowercase, trimmed) -> answer
+
+# --- Work Authorization ---
+- question: "are you legally authorized to work in the united states"
+  answer: "Yes"
+
+- question: "do you require sponsorship to work in the united states"
+  answer: "No"
+
+- question: "will you now or in the future require sponsorship"
+  answer: "No"
+
+- question: "are you a us citizen or permanent resident"
+  answer: "Yes"
+
+- question: "are you eligible to work in the us without sponsorship"
+  answer: "Yes"
+
+- question: "what is your work authorization status"
+  answer: "US Citizen"
+
+# --- Salary ---
+- question: "what are your salary expectations"
+  answer: "150000"
+
+- question: "what is your desired salary"
+  answer: "150000"
+
+- question: "what is your expected annual compensation"
+  answer: "150000"
+
+- question: "minimum salary requirement"
+  answer: "130000"
+
+# --- Remote / Location ---
+- question: "are you open to remote work"
+  answer: "Yes"
+
+- question: "are you willing to work on-site"
+  answer: "No"
+
+- question: "are you willing to relocate"
+  answer: "No"
+
+- question: "what is your preferred work arrangement"
+  answer: "Remote"
+
+# --- Availability ---
+- question: "when can you start"
+  answer: "2 weeks"
+
+- question: "what is your notice period"
+  answer: "2 weeks"
+
+- question: "how soon can you start"
+  answer: "2 weeks"
+
+# --- Experience (years) ---
+- question: "how many years of software engineering experience do you have"
+  answer: "5"
+
+- question: "how many years of professional experience do you have"
+  answer: "5"
+
+- question: "years of experience"
+  answer: "5"
+
+- question: "how many years of python experience"
+  answer: "5"
+
+- question: "how many years of javascript experience"
+  answer: "5"
+
+- question: "how many years of sql experience"
+  answer: "5"
+
+- question: "how many years of react experience"
+  answer: "5"
+
+- question: "how many years of node.js experience"
+  answer: "5"
+
+- question: "how many years of git experience"
+  answer: "5"
+
+- question: "how many years of rest api experience"
+  answer: "5"
+
+- question: "how many years of azure experience"
+  answer: "3"
+
+- question: "how many years of azure data factory experience"
+  answer: "3"
+
+- question: "how many years of salesforce experience"
+  answer: "3"
+
+- question: "how many years of mulesoft experience"
+  answer: "3"
+
+- question: "how many years of flask experience"
+  answer: "3"
+
+- question: "how many years of fastapi experience"
+  answer: "3"
+
+- question: "how many years of next.js experience"
+  answer: "3"
+
+- question: "how many years of typescript experience"
+  answer: "3"
+
+- question: "how many years of ci/cd experience"
+  answer: "5"
+
+- question: "how many years of github actions experience"
+  answer: "3"
+
+- question: "how many years of docker experience"
+  answer: "1"
+
+- question: "how many years of supabase experience"
+  answer: "1"
+
+- question: "how many years of html experience"
+  answer: "5"
+
+- question: "how many years of css experience"
+  answer: "5"
+
+# --- Education ---
+- question: "what is your highest level of education"
+  answer: "Certificate / Bootcamp"
+
+- question: "do you have a bachelor's degree"
+  answer: "No - I hold a Full Stack Web Development certificate from Lambda School (BloomTech) and have 5+ years of professional engineering experience."
+
+- question: "what degree do you hold"
+  answer: "Full Stack Web Development Certificate, Lambda School (BloomTech)"
+
+- question: "what is your educational background"
+  answer: "Full Stack Web Development Certificate from Lambda School (BloomTech), completed February 2021. 5+ years professional experience in automation, integration engineering, and full-stack development."
+
+# --- Assessments / Background ---
+- question: "are you willing to complete a skills assessment"
+  answer: "Yes"
+
+- question: "are you willing to undergo a background check"
+  answer: "Yes"
+
+- question: "are you willing to undergo a drug test"
+  answer: "Yes"
+
+# --- Cover Letter ---
+- question: "do you have a cover letter"
+  answer: "Yes"
+
+# --- Miscellaneous ---
+- question: "do you identify as a veteran"
+  answer: "No"
+
+- question: "do you have a disability"
+  answer: "No"
+
+- question: "gender"
+  answer: "Male"
+
+- question: "pronouns"
+  answer: "He/Him"
+
+- question: "ethnicity"
+  answer: "White / Caucasian"
+
+- question: "are you comfortable working in an agile environment"
+  answer: "Yes"
+
+- question: "do you have experience with agile or scrum"
+  answer: "Yes"
+
+- question: "are you a self-starter"
+  answer: "Yes"
+
+- question: "do you have experience leading projects"
+  answer: "Yes, I have led integration and automation projects end-to-end, including stakeholder discovery, architecture, implementation, and team enablement."
